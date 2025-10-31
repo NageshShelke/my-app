@@ -8,7 +8,7 @@ const Experience = () => {
           <p class="text-light-gray whitespace-nowrap max-sm:hidden">Spt 2023 - Present</p>
         </div>
         <div className="flex flex-col">
-          <p class="text-white text-lg font-semibold">Frontend Software Developer</p>
+          <p class="text-white text-lg font-semibold">Software Engineer</p>
           <p class="text-light-gray mb-4">Qualam Business Solution<span class="text-light-gray whitespace-nowrap hidden max-sm:inline-block ml-2">• (2023 - 2025)</span></p>
           <p class="text-light-gray">For the past two years, I have primarily worked with startups,
             Developed and maintained survey & form automation modules using JavaScript frameworks–primarily React JS
@@ -19,15 +19,13 @@ const Experience = () => {
 
       <div className="flex w-full mt-10">
         <div className="flex w-full gap-10">
-          <p class="text-light-gray whitespace-nowrap max-sm:hidden">Spt 2023 - Present</p>
+          <p class="text-light-gray whitespace-nowrap max-sm:hidden">Nov 2022 - Oct 2023</p>
         </div>
         <div className="flex flex-col">
-          <p class="text-white text-lg font-semibold">Frontend Software Developer</p>
-          <p class="text-light-gray mb-4">Qualam Business Solution<span class="text-light-gray whitespace-nowrap hidden max-sm:inline-block ml-2">• (2023 - 2025)</span></p>
-          <p class="text-light-gray">For the past two years, I have primarily worked with startups,
-            Developed and maintained survey & form automation modules using JavaScript frameworks–primarily React JS
-            and Knockout.JS (legacy), improving application scalability.<br /> Led UI development for the Emergency Response System (ERS) module for IRCLASS, collaborating with backend,
-            DevOps, and QA teams to deliver a production-ready maritime safety solution.</p>
+          <p class="text-white text-lg font-semibold">Frontend Developer</p>
+          <p class="text-light-gray mb-4">Immersive Vision Technology<span class="text-light-gray whitespace-nowrap hidden max-sm:inline-block ml-2">• (2023 - 2025)</span></p>
+          <p class="text-light-gray">Part of the web development team to build a user interface.<br />  Implement and maintain frontend web application, resulting in a 20% reduction in page load speed and 
+conversion rates by utilizing modern such as react.js and best practices for user experience and accessibility. </p>
         </div>
       </div>
 

@@ -10,12 +10,12 @@ const Projects = () => {
             </h2>
             <div className="flex w-full border-1 h-80 p-3 rounded-md gap-5 mb-10">
                 <div className="w-1/2 h-full rounded-md">
-                    <img src="./tribe-community.webp" alt="ProjectImage" className="rounded-md h-full" />
+                    <img src="./agrostar.png" alt="ProjectImage" className="rounded-md h-full" />
                 </div>
                 <div className="w-1/2">
-                    <p className="font-semibold text-white text-xl tracking-widest mt-2 text-center">TRIBE</p>
+                    <p className="font-semibold text-white text-xl tracking-widest mt-2 text-center">AGROSTAR</p>
                     <p className="mt-5 text-light-gray">
-                        TRIBE is a community app inspired by Skool, where users can create or join communities, share posts, like them, comment on them, and chat in real time with other users.
+                        AGROSTAR is a data-driven agritech platform that provides an online marketplace for the farmers of India. A “one-stop-shop” for the farming community.
                     </p>
                     <div className="flex flex-wrap mt-5 gap-5">
                         <div class="flex h-6 items-center justify-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">

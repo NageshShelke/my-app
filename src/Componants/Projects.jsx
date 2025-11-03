@@ -52,27 +52,24 @@ const Projects = () => {
             <div className="flex w-full border-1 h-80 p-5 rounded-md gap-5 shadow-xl">
               
                 <div className="w-1/2">
-                    <p className="font-semibold text-white text-xl tracking-widest mt-2 text-center">TRIBE</p>
+                    <p className="font-semibold text-white text-xl tracking-widest mt-2 text-center">Dr.Samuals Clinic</p>
                     <p className="mt-5 text-light-gray">
-                        TRIBE is a community app inspired by Skool, where users can create or join communities, share posts, like them, comment on them, and chat in real time with other users.
+                        A Doctor’s Appointment Booking App is a web application that allows patients to easily book, manage, and track appointments with doctors online. The goal of this app is to make the healthcare process more convenient for both patients and medical professionals.
                     </p>
                     <div className="flex flex-wrap mt-3 gap-5">
                         <div class="flex h-6 items-center justify-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
-                            <img alt="icon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="/react-icon.svg" />
-                            <p class="text-xs whitespace-nowrap">React</p>
+                            <img alt="icon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="/html-icon.svg" />
+                            <p class="text-xs whitespace-nowrap">HTML</p>
                         </div>
                         <div class="flex h-6 items-center justify-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
-                            <img alt="icon" loading="lazy" width="18" height="10" decoding="async" data-nimg="1" src="/javascript-icon.svg" />
-                            <p class="text-xs whitespace-nowrap">Javascript</p>
+                            <img alt="icon" loading="lazy" width="18" height="10" decoding="async" data-nimg="1" src="/css-icon.svg" />
+                            <p class="text-xs whitespace-nowrap">CSS</p>
                         </div>
                         <div class="flex h-6 items-center justify-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
-                            <img alt="icon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="/tailwind-icon.svg" />
-                            <p class="text-xs whitespace-nowrap">Tailwind</p>
+                            <img alt="icon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="/javascript-icon.svg" />
+                            <p class="text-xs whitespace-nowrap">JAVASCRIPT</p>
                         </div>
-                        <div class="flex h-6 items-center justify-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
-                            <img alt="icon" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" src="/redux-icon.svg" />
-                            <p class="text-xs whitespace-nowrap">Redux</p>
-                        </div>
+                        
 
                     </div>
                     <div className="flex flex-wrap mt-5 w-full justify-around">
@@ -87,7 +84,7 @@ const Projects = () => {
                     </div>
                 </div>
                   <div className="w-1/2 h-full rounded-md">
-                    <img src="./tribe-community.webp" alt="ProjectImage" className="rounded-md h-full" />
+                    <img src="./Clinic.png" alt="ProjectImage" className="rounded-md h-full" />
                 </div>
 
             </div>

@@ -22,7 +22,7 @@ const About = () => {
                         <div className="w-full flex items-center justify-between max-md:flex-col max-md:gap-3">
                             <a target="_blank" class="text-light-gray whitespace-nowrap hover:text-white" href="https://www.google.com/maps/place/Belgrade">🏠 Maharashtra, India.</a>
                             <div className="w-full flex items-center justify-end max-md:justify-center gap-5 text-base text-light-gray">
-                                <a target="_blank" class="flex gap-1 items-center hover:text-white" href="www.linkedin.com/in/nagesh-shelke-b39725181"><img alt="icon" width="24" height="24" src="../linkedin-icon.svg" />LinkedIn</a>
+                                <a target="_blank" class="flex gap-1 items-center hover:text-white" href="https://www.linkedin.com/in/nagesh-shelke-b39725181/"><img alt="icon" width="24" height="24" src="../linkedin-icon.svg" />LinkedIn</a>
                                 <a target="_blank" class="flex gap-1 items-center hover:text-white" href="https://github.com/NageshShelke"><img alt="icon" loading="lazy" width="20" height="20"  src="../github-icon.svg" />GitHub</a>
                             </div>
                         </div>

@@ -8,7 +8,7 @@ const Contact = () => {
           id="projects"
           class="font-bold text-lg tracking-widest text-white uppercase mb-5"
         >
-          Contact
+          Get In Touch
         </h2>
       </div>
       <div id='contact' className='gap-20 flex items-center pt-6 border-t border-light-gray/20 mb-16'>

@@ -24,7 +24,7 @@ const About = () => {
               <span className="text-white">Hey, I'm Nagesh.</span> I'm a Frontend
               <br className="max-md:hidden" />
               Software Developer.
-              <div className="bg-green-600/20 absolute max-md:relative right-0 bottom-1.5 whitespace-nowrap text-green-600 hover:bg-green-500/20 text-sm px-3 py-1 rounded-full inline-block hover:text-green-500">
+              <div className="mt-5 bg-green-600/20 absolute max-md:relative right-0 bottom-1.5 whitespace-nowrap text-green-600 hover:bg-green-500/20 text-sm px-3 py-1 rounded-full inline-block hover:text-green-500">
                 <span className="p-1 mb-px mr-1.5 inline-block bg-green-600 rounded-full"></span>
                 Open to work
               </div>

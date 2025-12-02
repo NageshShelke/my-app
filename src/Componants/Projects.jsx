@@ -26,13 +26,8 @@ const Projects = () => {
 
           <div className="flex flex-wrap mt-5 gap-5">
             <div className="flex h-6 items-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
-              <img width="18" src="/react-icon.svg" />
-              <p className="text-xs whitespace-nowrap">React</p>
-            </div>
-
-            <div className="flex h-6 items-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
-              <img width="18" src="/javascript-icon.svg" />
-              <p className="text-xs whitespace-nowrap">Javascript</p>
+              <img width="18" src="/next-icon.svg" />
+              <p className="text-xs whitespace-nowrap">Nexj.JS</p>
             </div>
 
             <div className="flex h-6 items-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
@@ -44,6 +39,8 @@ const Projects = () => {
               <img width="18" src="/redux-icon.svg" />
               <p className="text-xs whitespace-nowrap">Redux</p>
             </div>
+
+           
           </div>
 
           <div className="flex flex-wrap mt-5 w-full justify-around text-light-gray">

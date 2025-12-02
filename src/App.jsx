@@ -8,7 +8,7 @@ import Contact from './Componants/Contact'
 
 const App = () => {
   return (
-    <div>
+    <div className='md:px-30 xl:px-60'>
       <Header />
       <About />
       <Techstack />

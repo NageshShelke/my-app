@@ -12,7 +12,7 @@ const Contact = () => {
         </h2>
       </div>
 
-      <div id="contact" className="gap-20 flex items-center pt-6 border-t border-light-gray/20 mb-16">
+      <div id="contact" className="flex md:gap-20 gap-5 flex-wrap items-center pt-6 border-t border-light-gray/20 mb-16">
 
         <div className="flex items-center gap-2 text-light-gray hover:text-white">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" className="tabler-icon tabler-icon-mail-filled">

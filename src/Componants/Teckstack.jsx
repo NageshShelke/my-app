@@ -11,17 +11,20 @@ const Teckstack = () => {
         {Skillset.map((skill, index) => (
           <div
             key={index}
-            className="border-light-gray/50 hover:bg-light-gray/10 gap-1.5 h-24 text-light-gray border rounded-lg p-3 flex flex-col items-center justify-center hover:text-white transition-all ease-in-out group"
+            className="border-light-gray/50 gap-1.5 h-24 text-light-gray border rounded-lg p-3 flex flex-col items-center justify-center
+              hover:bg-light-gray/10 hover:text-white
+              transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105
+              group"
           >
             <img
               alt={skill.label}
               loading="lazy"
               width="32"
               height="32"
-              className="transition-transform duration-300 group-hover:-translate-y-1"
+              className="transition-transform duration-300 group-hover:-translate-y-1 group-hover:scale-110"
               src={skill.img}
             />
-            <p>{skill.lable}</p>
+            <p className="transition-colors duration-300 group-hover:text-white">{skill.lable}</p>
           </div>
         ))}
       </div>

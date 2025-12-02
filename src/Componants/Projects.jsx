@@ -10,8 +10,12 @@ const Projects = () => {
 
       {/* Project 1 */}
       <div className="flex w-full h-auto p-3 rounded-md gap-5 mb-10 max-md:flex-col border border-light-gray/30">
-        <div className="w-1/2 max-md:w-full rounded-md">
-          <img src="./agrostar.png" alt="ProjectImage" className="rounded-md w-full h-full object-cover" />
+        <div className="w-1/2 max-md:w-full rounded-md overflow-hidden">
+          <img
+            src="./agrostar.png"
+            alt="ProjectImage"
+            className="rounded-md w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
+          />
         </div>
 
         <div className="w-1/2 max-md:w-full">
@@ -27,7 +31,7 @@ const Projects = () => {
           <div className="flex flex-wrap mt-5 gap-5">
             <div className="flex h-6 items-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
               <img width="18" src="/next-icon.svg" />
-              <p className="text-xs whitespace-nowrap">Nexj.JS</p>
+              <p className="text-xs whitespace-nowrap">Next.JS</p>
             </div>
 
             <div className="flex h-6 items-center gap-1.5 px-4 rounded-full bg-blue-600/20 text-blue-300">
@@ -39,8 +43,6 @@ const Projects = () => {
               <img width="18" src="/redux-icon.svg" />
               <p className="text-xs whitespace-nowrap">Redux</p>
             </div>
-
-           
           </div>
 
           <div className="flex flex-wrap mt-5 w-full justify-around text-light-gray">
@@ -52,7 +54,7 @@ const Projects = () => {
                 <path d="M11.5 3a17 17 0 0 0 0 18"></path>
                 <path d="M12.5 3a17 17 0 0 1 0 18"></path>
               </svg>
-              <p>Live Demo</p>
+              <p>Preview</p>
             </a>
 
             <a href="" className="flex items-center gap-2">
@@ -66,7 +68,8 @@ const Projects = () => {
       </div>
 
       {/* Project 2 */}
-      <div className="flex w-full h-auto p-5 rounded-md gap-5 shadow-xl max-md:flex-col border border-light-gray/30">
+      <div className="flex w-full h-auto p-5 rounded-md gap-5 shadow-xl max-md:flex-col border border-light-gray/30">       
+
         <div className="w-1/2 max-md:w-full">
           <p className="font-semibold text-white text-xl tracking-widest mt-2 text-center">
             Dr. Samuals Clinic
@@ -103,7 +106,7 @@ const Projects = () => {
                 <path d="M11.5 3a17 17 0 0 0 0 18"></path>
                 <path d="M12.5 3a17 17 0 0 1 0 18"></path>
               </svg>
-              <p>Live Demo</p>
+              <p>Preview</p>
             </a>
 
             <a href="" className="flex items-center gap-2">
@@ -114,9 +117,12 @@ const Projects = () => {
             </a>
           </div>
         </div>
-
-        <div className="w-1/2 max-md:w-full rounded-md">
-          <img src="./Clinic.png" alt="ProjectImage" className="rounded-md w-full h-full object-cover" />
+        <div className="w-1/2 max-md:w-full rounded-md overflow-hidden">
+          <img
+            src="./Clinic.png"
+            alt="ProjectImage"
+            className="rounded-md w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
+          />
         </div>
       </div>
     </div>

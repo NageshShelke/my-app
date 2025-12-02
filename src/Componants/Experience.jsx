@@ -1,12 +1,19 @@
+"use client";
+import { motion } from "framer-motion";
+
 const Experience = () => {
   return (
     <div className="flex flex-col w-full mt-24">
-      <h2
+      <motion.h2
         id="work-experience"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
         className="font-bold text-lg tracking-widest text-white uppercase mb-10"
       >
         Work Experience
-      </h2>
+      </motion.h2>
 
       <div className="flex w-full gap-6 max-md:flex-col">
         <p className="text-light-gray whitespace-nowrap max-sm:hidden">
